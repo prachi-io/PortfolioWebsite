@@ -1,0 +1,232 @@
+/* Main Navigation Bar*/
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height : 10vh;
+}
+
+/*logo image with logo name */
+.nav .logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left : 20px;
+}
+
+/*logo image*/
+.nav .logo .logoImage img{
+    width:60px;
+    height:60px;
+    padding-left :10px;
+}
+
+/*logo name editing*/
+.logoname1 {
+    font-size: 20px;
+    color: #444BAB;
+    padding-left : 10px;
+}
+
+/* right part of navigation with include notify , user , arrow*/
+.rightnav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+/*image short*/
+.rightnav .user .userImage img{
+    width:70px;
+    height:70px;
+}
+
+/* user in flex */
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.username {
+    font-size: 15px;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+/* right part in right */
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* notify icon */
+.rightnav .notify img {
+    width : 30px;
+    height : 30px;
+    padding-left : 20px;
+    padding-top:20px;
+    padding-right : 20px;
+}
+
+/* arrow */
+.arrow img {
+    width : 20px;
+    height : 10px;
+    padding-right : 20px;
+    padding-top:20px;
+}
+
+
+/* main part */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* left */
+.left {
+    padding-left : 30px;
+    padding-right : 30px;
+    padding-top: 50px;
+    width : 25vw;
+}
+
+/* image small */
+.main .left .image img {
+    width:60%;
+    height:50%;
+    border-radius: 80%;
+    border : 2px solid red;
+    margin-left:20px;
+}
+
+/* text name in center */
+.name {
+    text-align: center;
+    padding-bottom:30px;
+    font-size: 2vw;
+}
+
+.imagename {
+    text-align: center;
+}
+
+/* contact */
+.contact .gmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.contact .phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contact img {
+    width: 2vw;
+    height: 2vh;
+}
+
+.contact h5  {
+    font-size: 13px;
+    padding-left: 10px;
+    margin : 0;
+}
+
+/* on the web */
+.ontheweb .linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.ontheweb .bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.ontheweb .leetcode {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.ontheweb .github {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.ontheweb img {
+    width: 15px;
+    height: 15px;
+
+}
+
+.ontheweb h5  {
+    font-size: 13px;
+    padding-left: 10px;
+    margin : 0;
+}
+
+/* right */
+.right {
+    width : 60vw;
+    padding: 50px;
+}
+
+.education {
+    padding-bottom: 15px;
+}
+.education h5{
+    color: #6B6C6D;
+}
+.workexp>h4 {
+    color:#343A40;
+}
+
+.workexp>h5 {
+    color:#6B6C6D;
+}
+
+.workexp>.description>h4 {
+    color:#6B6C6D;
+}
+.workexp>.description>p {
+    color:#6B6C6D;
+}
+.workexp>.projectDetails>h4 {
+    color:#6B6C6D;
+}
+.workexp>.projectDetails>p {
+    color:#6B6C6D;
+}
+
+.academic h3 {
+    color:#343A40;
+}
+
+.academic h4 {
+    color:#343A40;
+}
+.academic h5 {
+    color:#6B6C6D;
+}
+.academic p {
+    color : #343A40;
+    font-family: 'Tiro Kannada', serif;
+}
+.achievements {
+    color : #263238;
+}
