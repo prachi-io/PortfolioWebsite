@@ -1,9 +1,15 @@
+* {
+    background-color: #F5F5F5;
+}
+
 /* Main Navigation Bar*/
 .nav {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height : 10vh;
+    height : 10%;
+    /*background-color: black;*/
+    border : 1px #e7e1e1 solid;
 }
 
 /*logo image with logo name */
@@ -12,20 +18,23 @@
     flex-direction: row;
     justify-content: flex-start;
     padding-left : 20px;
+    /*background-color: black;*/
 }
 
 /*logo image*/
 .nav .logo .logoImage img{
-    width:60px;
-    height:60px;
-    padding-left :10px;
+    width:40px;
+    height:40px;
+    /*border: 1px black solid;*/
+    margin-top:7px;
 }
 
 /*logo name editing*/
 .logoname1 {
     font-size: 20px;
     color: #444BAB;
-    padding-left : 10px;
+    margin-left : 10px;
+    /*background-color: black;*/
 }
 
 /* right part of navigation with include notify , user , arrow*/
@@ -37,8 +46,10 @@
 
 /*image short*/
 .rightnav .user .userImage img{
-    width:70px;
-    height:70px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: 6px;
 }
 
 /* user in flex */
@@ -49,9 +60,11 @@
 }
 
 .username {
-    font-size: 15px;
+    font-size: 11px;
     padding-left : 10px;
-    padding-right : 10px;
+    padding-right : 15px;
+    padding-top : 6.5px;
+
 }
 
 /* right part in right */
@@ -63,11 +76,13 @@
 
 /* notify icon */
 .rightnav .notify img {
-    width : 30px;
-    height : 30px;
-    padding-left : 20px;
-    padding-top:20px;
-    padding-right : 20px;
+    width : 20px;
+    height : 20px;
+    margin-left : 20px;
+    margin-top:20px;
+    margin-right : 50px;
+    /*border : 1px black solid;*/
+
 }
 
 /* arrow */
@@ -75,7 +90,7 @@
     width : 20px;
     height : 10px;
     padding-right : 20px;
-    padding-top:20px;
+    padding-top:24px;
 }
 
 
@@ -88,10 +103,13 @@
 
 /* left */
 .left {
+    margin-top : 20px;
     padding-left : 30px;
     padding-right : 30px;
     padding-top: 50px;
-    width : 25vw;
+    width : 25rem;
+    border : 1px #E7E1E1FF solid;
+    height : 60rem;
 }
 
 /* image small */
@@ -99,15 +117,15 @@
     width:60%;
     height:50%;
     border-radius: 80%;
-    border : 2px solid red;
-    margin-left:20px;
+    /*border : 2px solid blue;*/
+    /*margin: 20px 20px 0 20px;*/
 }
 
 /* text name in center */
 .name {
     text-align: center;
     padding-bottom:30px;
-    font-size: 2vw;
+    font-size: 200%;
 }
 
 .imagename {
@@ -129,8 +147,8 @@
 }
 
 .contact img {
-    width: 2vw;
-    height: 2vh;
+    width: 6%;
+    height: 6%;
 }
 
 .contact h5  {
@@ -184,6 +202,8 @@
 .right {
     width : 60vw;
     padding: 50px;
+    margin-top:20px;
+    border : 1px #E7E1E1FF solid;
 }
 
 .education {
