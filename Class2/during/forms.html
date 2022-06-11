@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Title</title>
+</head>
+<body>
+<!--Container class -> bind whole thing
+good way for bootstrap-->
+<div class="container">
+    <form>
+        <div class="row">
+<!--            every row according to parent is divided in 12 parts
+here 1 part is of 4 and other is 8 so whole line covered
+but one is of 4 and other is 5 then last space left
+ but if total is more than 12 so second one will go to next line -->
+<!--            this is responsive-->
+            <label class="col-lg-4 col-sm-8">Name</label>
+            <input class="col-lg-8 col-sm-8" type="text">
+        </div>
+
+<!--        <br>-->
+        <label>Age</label>
+        <input type = "number">
+<!--        <br>-->
+        <label>Gender</label>
+        <input type = "radio" name = "gender" value="male">
+        <label>Male</label>
+        <input type = "radio" name = "gender" value="female">
+        <label>Female</label>
+        <input type = "radio" name = "gender" value="other">
+        <label>Other</label>
+<!--        <br>-->
+        <label>Love of Life</label>
+        <input type = "checkbox" name = "loveOfLife" value="mom">
+        <label>Mom</label>
+        <input type = "checkbox" name = "loveOfLife" value="dad">
+        <label>Dad</label>
+        <input type = "checkbox" name = "loveOfLife" value="brother">
+        <label>Brother</label>
+        <input type = "checkbox" name = "loveOfLife" value="none">
+        <label>none</label>
+<!--        <br>-->
+        <label>Email ID</label>
+        <input type = "email">
+<!--        <br>-->
+        <label>Password</label>
+        <input type = "password">
+<!--        <br>-->
+        <label>DOB</label>
+        <input type="date">
+<!--        <br>-->
+        <label>DOB</label>
+        <input type = "datetime">
+<!--        <br>-->
+        <label>DOB</label>
+        <input type = "datetime">
+<!--        <br>-->
+        <label>Upload File</label>
+        <input type = "file">
+<!--        <br>-->
+        <label>Github link</label>
+        <input type = "url">
+<!--        <br>-->
+        <input type = "submit">
+    </form>
+</div>
+
+</body>
+</html>

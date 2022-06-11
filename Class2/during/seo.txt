@@ -1,0 +1,27 @@
+SEO --> Search Engine Optimization
+refer notes copy
+
+very much work for even a button
+so a librray is made to predefine library
+bootstrap -> already defined
+material ui -> library
+
+in bootstrap -> already css likhi hui h isme for many like buttons etc
+             -> can be used to link jss also , also have jss already made
+
+
+bootstrap --> a line divided in 12 parts
+
+breakpoints in bootstrap
+
+disadvantage -> loading a large css file
+
+color -> primary (blue) , secomdary (grey) , success (green) , red (danger)
+
+///// BOOTSTRAP PROVIDE IT /////////
+modal (pop up of form  , or can do something)
+cards  -> cards me ionfo , hover pe zoom
+carousals -> slide pe aage aalag
+pagination -> niche 1 2 3 4 5 jo aata h
+spinners -> point bhade aage aage
+tool tip -> when we hover message comes

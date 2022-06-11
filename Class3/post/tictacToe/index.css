@@ -1,0 +1,35 @@
+#grid {
+    display: flex;
+    flex-direction: column;
+    width : 300px;
+    height:300px;
+}
+#row-1 , #row-2 , #row-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.col-1 , .col-2 , .col-3 {
+    flex:1;
+    height:100% ;
+    border : 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox {
+    font-size: 100px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:95vw;
+    height:90vh;
+}
+
+.col-1:hover , .col-2:hover , .col-3:hover {
+    background-color: #9bc4ce;
+}
