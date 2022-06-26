@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    font-family: 'Acme', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display : flex;
+    justify-content: center;
+
+}
+
+.timer_container{
+
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin-top: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:auto;
+    height: auto;
+    min-width: 150px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+#timer {
+    font-size:100px;
+}
